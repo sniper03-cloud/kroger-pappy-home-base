@@ -2,6 +2,8 @@
 
 A GitHub Pages PWA for the 2026 Louisville Kroger Pappy drawing. It loads the 17-stop Home Base route and two optional stops. Tap **Directions** at any stop to open Google Maps, then tap **Done** after entering. **Undo** reopens a completed stop.
 
+The **Pace tracker** compares your check-in times with the planned checkpoints and shows the time left in the 4–8 p.m. Eastern drawing window. It uses the route schedule as a baseline. Tap **Route map** to pick any stop and open directions or check it off.
+
 **Use my location** finds the closest unfinished planned stop by straight-line distance. It leaves the planned route order in place. The app asks for location only when you tap the button and uses the coordinates in memory. It saves your completed stops in your browser. No account or Maps API key is required.
 
 ## Run locally

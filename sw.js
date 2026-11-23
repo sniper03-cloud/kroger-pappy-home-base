@@ -1,11 +1,13 @@
 const scope = self.registration.scope;
 const cachePrefix = `pappy-run:${scope}:`;
-const cacheName = `${cachePrefix}v2`;
+const cacheName = `${cachePrefix}v3`;
 const shell = new URL('./index.html', scope).href;
 const assets = [
   './index.html',
   './app.js',
   './stops.js',
+  './pace.js',
+  './route-geometry.js',
   './styles.css',
   './manifest.webmanifest',
   './icons/pappy-180.png',

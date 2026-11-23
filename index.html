@@ -63,6 +63,18 @@
 
     <section class="next-panel" id="next-panel" aria-label="Next stop"></section>
 
+    <section class="pace-panel" aria-labelledby="pace-title">
+      <div class="pace-heading">
+        <h2 id="pace-title">Pace tracker</h2>
+        <p id="pace-clock" class="pace-clock"></p>
+      </div>
+      <p id="pace-detail" class="pace-detail"></p>
+      <div class="pace-advice" id="pace-advice" hidden>
+        <p id="pace-message"></p>
+        <div id="pace-actions" class="actions"></div>
+      </div>
+    </section>
+
     <section class="location-panel" aria-label="Your location">
       <button type="button" class="button locate-button" id="locate-button">
         <svg class="icon" aria-hidden="true"><use href="#icon-locate"/></svg>
@@ -74,7 +86,12 @@
       </div>
     </section>
 
-    <section class="checklist" aria-labelledby="route-title">
+    <div class="route-views filters" role="group" aria-label="Route view">
+      <button type="button" data-route-view="checklist" aria-controls="route-checklist optional-section" aria-pressed="true">Checklist</button>
+      <button type="button" data-route-view="map" aria-controls="route-map" aria-pressed="false">Route map</button>
+    </div>
+
+    <section class="checklist" id="route-checklist" aria-labelledby="route-title">
       <div class="section-top">
         <h2 id="route-title" tabindex="-1">Route checklist</h2>
         <div class="filters" role="group" aria-label="Filter route stops">
@@ -91,6 +108,20 @@
       <summary><span>Optional stops</span><span class="optional-count" id="optional-count">2</span></summary>
       <ul id="optional-list" class="stop-list"></ul>
     </details>
+
+    <section class="route-map-panel" id="route-map" aria-labelledby="map-title" hidden>
+      <h2 id="map-title" tabindex="-1">Route map</h2>
+      <div class="map-layout">
+        <div class="map-figure">
+          <div class="map-canvas">
+            <svg class="map-diagram" id="map-diagram" viewBox="0 0 360 350" aria-hidden="true" focusable="false"></svg>
+            <div class="map-pins" id="map-pins" aria-label="Stops on the map"></div>
+          </div>
+          <p class="map-credit">Road data © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap contributors</a></p>
+        </div>
+        <div class="map-selection" id="map-selection" aria-label="Selected stop"></div>
+      </div>
+    </section>
 
     <p class="footer-note" id="storage-status">Progress stays on this device.</p>
     <div class="sr-only" id="completion-status" role="status" aria-atomic="true"></div>
