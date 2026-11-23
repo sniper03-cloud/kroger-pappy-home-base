@@ -1,0 +1,21 @@
+export const stores = [
+  {"id": "cedar-springs", "name": "Cedar Springs", "address": "6910 Bardstown Rd", "city": "Louisville", "zip": "40291", "longitude": -85.586757, "latitude": 38.148918},
+  {"id": "beulah-church", "name": "Beulah Church", "address": "6745 Beulah Church Rd", "city": "Louisville", "zip": "40228", "longitude": -85.615139, "latitude": 38.11924},
+  {"id": "mud-lane", "name": "Southgate", "address": "5001 Mud Ln", "city": "Louisville", "zip": "40229", "longitude": -85.670001, "latitude": 38.088362, "hint": "Add after Beulah Church if you expect to finish Auburndale by 5:00 p.m."},
+  {"id": "outer-loop", "name": "Festival on the Court", "address": "4501B Outer Loop", "city": "Louisville", "zip": "40219", "longitude": -85.678627, "latitude": 38.138183},
+  {"id": "auburndale", "name": "Auburndale", "address": "5533 New Cut Rd", "city": "Louisville", "zip": "40214", "longitude": -85.77504, "latitude": 38.144793},
+  {"id": "central-station", "name": "Central Station", "address": "3165 S 2nd St", "city": "Louisville", "zip": "40208", "longitude": -85.76312, "latitude": 38.203416},
+  {"id": "germantown", "name": "Germantown", "address": "1265 Goss Ave Ste A", "city": "Louisville", "zip": "40217", "longitude": -85.730962, "latitude": 38.224626},
+  {"id": "highlands", "name": "Highlands", "address": "2450 Bardstown Rd", "city": "Louisville", "zip": "40205", "longitude": -85.686589, "latitude": 38.223539},
+  {"id": "mcmahan-plaza", "name": "McMahan Plaza", "address": "3017 Breckenridge Ln", "city": "Louisville", "zip": "40220", "longitude": -85.628124, "latitude": 38.217577},
+  {"id": "stony-brook", "name": "Stony Brook", "address": "9080 Taylorsville Rd", "city": "Louisville", "zip": "40299", "longitude": -85.589824, "latitude": 38.214524},
+  {"id": "plainview", "name": "Plainview", "address": "9812 1/2 Linn Station Rd", "city": "Louisville", "zip": "40223", "longitude": -85.575525, "latitude": 38.228369},
+  {"id": "middletown", "name": "Middletown", "address": "12607 Shelbyville Rd", "city": "Louisville", "zip": "40243", "longitude": -85.52612, "latitude": 38.246238},
+  {"id": "forest-springs", "name": "Forest Springs", "address": "12450 La Grange Rd", "city": "Louisville", "zip": "40245", "longitude": -85.510835, "latitude": 38.291194},
+  {"id": "ballardsville", "name": "Ballardsville", "address": "10010 Ballardsville Rd", "city": "Louisville", "zip": "40241", "longitude": -85.561358, "latitude": 38.315621},
+  {"id": "springhurst", "name": "Springhurst", "address": "9440 Brownsboro Rd", "city": "Louisville", "zip": "40241", "longitude": -85.575442, "latitude": 38.306915},
+  {"id": "westport", "name": "Westport Plaza", "address": "9501 Westport Rd", "city": "Louisville", "zip": "40241", "longitude": -85.578786, "latitude": 38.285824},
+  {"id": "holiday-manor", "name": "Holiday Manor", "address": "2227 Holiday Manor Ct", "city": "Louisville", "zip": "40222", "longitude": -85.631812, "latitude": 38.283636},
+  {"id": "st-matthews", "name": "St. Matthews", "address": "291 N Hubbards Ln Ste B49", "city": "Louisville", "zip": "40207", "longitude": -85.640199, "latitude": 38.258764},
+  {"id": "prospect", "name": "Prospect", "address": "5949 Timber Ridge Dr", "city": "Prospect", "zip": "40059", "longitude": -85.621665, "latitude": 38.338548, "hint": "If you finish Forest Springs by 6:35 p.m., go Westport, Springhurst, Ballardsville, Prospect, Holiday Manor, then Hubbards Lane."}
+];
